@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.itemMenu {
+  width: 260px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.itemMenu:hover {
+  cursor: pointer;
+}
+
+.itemMenuNormal {
+  background-color: #837052;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.itemMenuNormal:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #837052;
+  color: #837052;
+}
+
+.itemMenuEnable {
+  background-color: #FFFFFF;
+  border: 1px solid #837052;
+  color: #837052;
+}
+
+.menu{
+  display: inline;
+}
